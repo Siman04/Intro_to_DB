@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MyLocalMySQL",
+            "database": "alx_book_store",
+            "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "MyLocalMySQL",
+            "database": "Orders",
+            "username": "root",
+            "askForPassword": true
+        }
+    ]
+}
