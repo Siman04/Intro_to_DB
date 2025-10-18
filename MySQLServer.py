@@ -21,7 +21,7 @@ def create_database(host, user, password, db_name):
             print(f'Database "{db_name}" created successfully!')
             
     except Error as e:
-        print(f"Error connecting to MySQL: {e}")
+        print(f"except mysql.connector.Error: {e}")
         
     finally:
         if cursor:
